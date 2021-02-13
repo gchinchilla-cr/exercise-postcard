@@ -1,9 +1,103 @@
-body {
-	background: black;
+
+.principal{
+    height:350px;
+    width:550px; 
+   /* border: solid black;*/
 }
-.postcard {
-	background: white;
-	width: 400px;
-	height: 300px;
-	margin: auto;
+
+.encabezado{
+    height:95px;
+    width:535px; 
+    /*border: solid purple;*/
+    margin:5px 5px 2px 5px;
+}
+
+.encabezado_titulo{
+    height:85px;
+    width:380px; 
+   /* border: solid red;*/
+    margin:2px 1px 2px 2px;
+    float: left;
+}
+
+.titulo{
+    font-family: "Indie Flower", sans-serif;
+   /* border: solid black;*/
+    padding-left: 10px;
+    font-size: 40px;
+}
+
+.encabezado_logo{
+    height:85px;
+    width:138px; 
+   /* border: solid blue;*/
+    margin:2px 2px 2px 2px;
+    float: right;
+}
+
+#logo{
+    width: 70px;
+    float: right;
+    padding-right: 15px;
+}
+
+.cuerpo{
+    height:130px;
+    width:535px; 
+   /* border: solid orange;*/
+    margin:2px 5px 2px 5px;
+}
+
+.cuerpo_descripcion{
+    height:120px;
+    width:265px; 
+   /* border: solid gray;*/
+    margin:2px 1px 2px 2px;
+    float: left;
+}
+
+#pha1{
+    margin-top: 0%;
+    font-family: "Patrick Hand", sans-serif;
+    font-size: 18px;
+}
+
+#pha2{
+    font-family: "Patrick Hand", sans-serif;
+    font-size: 18px;
+}
+
+.cuerpo_datos{
+    height:120px;
+    width:250px; 
+    /*border: solid black;*/
+    margin:2px 2px 2px 2px;
+    float: right;
+}
+
+input {
+        border:none;
+        border-bottom:1px solid gray;
+        
+    }
+
+
+
+.pie{
+    height:95px;
+    width:535px; 
+    /*border: solid green;*/
+    margin:2px 5px 5px 5px;
+}
+
+.button{
+    margin-top: 25px;
+    margin-left: 190px;
+    font-family: "Indie Flower", sans-serif;
+    line-height: 2.5;
+    font-size: 1rem;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
 }
